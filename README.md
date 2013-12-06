@@ -35,3 +35,9 @@ Usage:
             NSLog(@"Error: Nothing is selected for to-one relationship %@", errorProp);
         }
     }
+    
+## Contact
+
+![Travis CI build status](https://api.travis-ci.org/mruegenberg/CoreDataValidation.png)
+
+Bug reports and pull requests are welcome! Just write an e-mail or (preferred) open an issue on GitHub.
