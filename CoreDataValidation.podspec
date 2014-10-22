@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.public_header_files = '*.h'
 
   s.frameworks = 'CoreFoundation', 'CoreData'
+  s.requires_arc = true
 
 end
