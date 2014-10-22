@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CoreDataValidation"
-  s.version      = "0.1.0"
+  s.version      = "1.0"
   s.summary      = "Validation for Core Data objects"
 
   s.description  = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # TODO: it should, in principle, also work on OS X
   s.platform     = :ios, '5.0'
 
-  s.source       = { :git => "https://github.com/mruegenberg/CoreDataValidation.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/mruegenberg/CoreDataValidation.git", :tag => s.version }
 
   s.source_files  = '*.{h,m}'
   s.public_header_files = '*.h'
